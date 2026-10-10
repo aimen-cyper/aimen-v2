@@ -1,0 +1,5 @@
+# أدوات التطوير والاختبار فقط (لا تُثبَّت على سيرفر التشغيل)
+# التثبيت:  pip install -r requirements.txt -r requirements-dev.txt
+
+pytest==9.0.3
+pytest-asyncio==1.4.0

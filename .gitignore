@@ -1,0 +1,26 @@
+# البيئة والأسرار
+.env
+*.key
+
+# قاعدة البيانات والملفات المتولدة
+data/
+logs/
+backups/
+*.db
+*.db-wal
+*.db-shm
+
+# بايثون
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# أدوات المحرر
+.idea/
+.vscode/
+.DS_Store
